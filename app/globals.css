@@ -3,23 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --background-color: #FFFFFF;
+  --inverted-background-color: #0B0B0B;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  --text-color: #272727;
+  --text-color-alt: #595959;
+  --inverted-text-color: #FFFFFF;
+  --inverted-text-color-alt: #979797;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --accent-color: #573BC7;
+
 }
